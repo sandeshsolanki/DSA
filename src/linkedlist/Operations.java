@@ -352,7 +352,74 @@ public class Operations {
 
 
     //remove duplicate from sorted list
+    public static void removeDuplicate()
+    {
+        Node temp = head;
+        while (temp != null && temp.next != null)
+        {
+            if (temp.data == temp.next.data)
+            {
+                temp.next = temp.next.next;
+            }
+            else
+            {
+                temp = temp.next;
+            }
+        }
+    }
 
+
+    // remove duplicate from unsorted list
+    public static void removeUnsortedList()
+    {
+        Node current = head;
+
+        while (current != null)
+        {
+            Node runner = current;
+
+            while (runner.next != null)
+            {
+                if (runner.next.data == current.data)
+                {
+                    runner.next = runner.next.next;
+                }
+                else
+                {
+                    runner = runner.next;
+                }
+            }
+            current = current.next;
+        }
+    }
+
+
+
+
+
+    //merge two sorted linked list
+    public static Node mergeTwoSortedList(Node list1, Node list2)
+    {
+        if (list1 == null)
+        {
+            return list2;
+        }
+        if (list2 == null)
+        {
+            return list1;
+        }
+
+        if (list1.data < list2.data)
+        {
+            list1.next = mergeTwoSortedList(list1.next, list2);
+            return list1;
+        }
+        else
+        {
+            list2.next = mergeTwoSortedList(list2.next, list1);
+            return list2;
+        }
+    }
     public static void main(String[] args) {
 
     }
