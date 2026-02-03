@@ -272,6 +272,86 @@ public class Operations {
 
 
     //find starting node in loop
+    public static Node findStatingOfLoop()
+    {
+        Node slow = head;
+        Node fast = head;
+
+        while (fast != null && fast.next != null)
+        {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if (slow == fast)
+            {
+                break;
+            }
+
+        }
+        if (fast == null || fast.next==null)
+        {
+            return null;
+        }
+
+        slow = head;
+        while (slow != fast)
+        {
+            slow = slow.next;
+            fast = fast.next;
+        }
+        return slow;
+    }
+
+
+
+
+
+    //remove loop in thi linked list
+    public static void removeLoop()
+    {
+        if (head == null || head.next == null)
+        {
+            return;
+        }
+
+        Node slow = head;
+        Node fast = head;
+
+        while (fast != null && fast.next != null)
+        {
+            slow = slow.next;
+            fast = fast.next.next;
+
+
+            if (slow == fast)
+            {
+                break;
+            }
+        }
+
+        slow = head;
+        while (slow != fast)
+        {
+            slow = slow.next;
+            fast = fast.next;
+        }
+
+        Node loopStart = slow;
+
+        Node temp = loopStart;
+
+        while (temp.next != loopStart)
+        {
+            temp = temp.next;
+        }
+        temp.next = null;
+    }
+
+
+
+
+
+    //remove duplicate from sorted list
 
     public static void main(String[] args) {
 
