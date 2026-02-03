@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a3604206-b374-4d45-bbf4-f343077324d2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/Operations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,31 +42,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AnagramCheck.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArraySortedOrNot.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindMinMax.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindMissingNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MoveZeros.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveDuplicateBruteForce.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveDuplicateUsingSet.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RotateArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringPalindrome.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/JavaWorkSpace/DSA/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AnagramCheck.executor": "Run",
+    "Application.ArraySortedOrNot.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
+    "Application.FindMinMax.executor": "Run",
+    "Application.FindMissingNumber.executor": "Run",
+    "Application.LinearSearch.executor": "Run",
+    "Application.MergeSort.executor": "Run",
+    "Application.MoveZeros.executor": "Run",
+    "Application.RemoveDuplicateBruteForce.executor": "Run",
+    "Application.RemoveDuplicateUsingSet.executor": "Run",
+    "Application.RotateArray.executor": "Run",
+    "Application.StringPalindrome.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "E:/JavaWorkSpace/DSA/src/Main.java"
   }
-}</component>
-  <component name="RunManager" selected="Application.FindMissingNumber">
-    <configuration name="AnagramCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.AnagramCheck" />
+}]]></component>
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searching_sorting.BinarySearch" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.*" />
+          <option name="PATTERN" value="searching_sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +90,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicateBruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.RemoveDuplicateBruteForce" />
+    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searching_sorting.LinearSearch" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="searching_sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searching_sorting.MergeSort" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="searching_sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,26 +129,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.StringPalindrome" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.LinearSearch" />
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.FindMissingNumber" />
         <item itemvalue="Application.RotateArray" />
-        <item itemvalue="Application.StringPalindrome" />
-        <item itemvalue="Application.AnagramCheck" />
-        <item itemvalue="Application.RemoveDuplicateBruteForce" />
       </list>
     </recent_temporary>
   </component>
