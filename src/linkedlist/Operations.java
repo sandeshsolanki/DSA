@@ -199,7 +199,79 @@ public class Operations {
 
 
 
-    //find nth node from end
+    //check if a linked list is a palindrome
+    public static boolean isPalindrome()
+    {
+        //find middle
+        Node slow = head;
+        Node fast = head;
+
+        while (fast != null && fast.next != null)
+        {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        Node mid = slow;
+        //reverse second half
+
+        Node prev = null;
+        Node curr = mid;
+        Node next;
+
+        while (curr != null)
+        {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+
+        Node right = prev;
+        Node left = head;
+        //check data same or not
+
+        while (right != null)
+        {
+            if (right.data != left.data)
+            {
+                return false;
+            }
+            left = left.next;
+            right = right.next;
+        }
+        return true;
+    }
+
+
+
+
+
+
+    //detect loop in linked list
+    public static boolean hasLoop()
+    {
+        Node slow = head;
+        Node fast = head;
+
+        while (fast != null && fast.next != null)
+        {
+            slow = slow.next;
+            fast = fast.next.next;
+
+            if (slow == fast)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+
+
+
+
+    //find starting node in loop
 
     public static void main(String[] args) {
 
