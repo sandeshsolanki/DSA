@@ -57,6 +57,8 @@
     "Application.RotateArray.executor": "Run",
     "Application.SecondLargest.executor": "Run",
     "Application.StringPalindrome.executor": "Run",
+    "Application.SubArray.executor": "Run",
+    "Application.kadanesAlgo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -64,7 +66,7 @@
     "onboarding.tips.debug.path": "E:/JavaWorkSpace/DSA/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SecondLargest">
+  <component name="RunManager" selected="Application.MaxSubSumBruteForce">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="searching_sorting.BinarySearch" />
       <module name="DSA" />
@@ -78,38 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.FindMissingNumber" />
+    <configuration name="MaxSubSumBruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.MaxSubSumBruteForce" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching_sorting.LinearSearch" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="searching_sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching_sorting.MergeSort" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="searching_sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,13 +106,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.SubArray" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="kadanesAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.kadanesAlgo" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSubSumBruteForce" />
+        <item itemvalue="Application.SubArray" />
+        <item itemvalue="Application.kadanesAlgo" />
         <item itemvalue="Application.SecondLargest" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.LinearSearch" />
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.FindMissingNumber" />
       </list>
     </recent_temporary>
   </component>
