@@ -420,6 +420,76 @@ public class Operations {
             return list2;
         }
     }
+
+
+
+
+    //sort the list
+
+    public static Node sortList(Node head)
+    {
+        if (head == null && head.next == null)
+        {
+            return head;
+        }
+
+        Node mid = getMid(head);
+        Node rightHead = mid.next;
+        mid.next = null;
+
+
+        Node left = sortList(head);
+        Node right = sortList(rightHead);
+
+        return merge(left,right);
+    }
+
+    public static Node getMid(Node head)
+    {
+        Node slow = head;
+        Node fast = head.next;
+
+        while (fast != null && fast.next != null)
+        {
+            slow = slow.next;
+            fast = fast.next.next;
+
+        }
+
+        return slow;
+    }
+
+
+    public static Node merge(Node list1, Node list2)
+    {
+        Node dummy = new Node(0);
+        Node current = dummy;
+     while (list1 != null && list2 != null)
+     {
+         if (list1.data < list2.data)
+         {
+             current.next = list1;
+             list1 = list1.next;
+         }
+         else
+         {
+             current.next = list2;
+             list2= list2.next;
+
+         }
+        current = current.next;
+     }
+     if (list1 != null)
+     {
+         current.next = list1;
+     }
+     else
+     {
+         current.next = list2;
+     }
+
+     return dummy.next;
+    }
     public static void main(String[] args) {
 
     }

@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a3604206-b374-4d45-bbf4-f343077324d2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/Operations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,34 +43,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AnagramCheck.executor": "Run",
-    "Application.ArraySortedOrNot.executor": "Run",
-    "Application.BinarySearch.executor": "Run",
-    "Application.CountVowelConsonant.executor": "Run",
-    "Application.FindMinMax.executor": "Run",
-    "Application.FindMissingNumber.executor": "Run",
-    "Application.LinearSearch.executor": "Run",
-    "Application.MaxSubSumBruteForce.executor": "Run",
-    "Application.MergeSort.executor": "Run",
-    "Application.MoveZeros.executor": "Run",
-    "Application.RemoveDuplicateBruteForce.executor": "Run",
-    "Application.RemoveDuplicateUsingSet.executor": "Run",
-    "Application.RotateArray.executor": "Run",
-    "Application.SecondLargest.executor": "Run",
-    "Application.StringPalindrome.executor": "Run",
-    "Application.SubArray.executor": "Run",
-    "Application.ThirdLargest.executor": "Run",
-    "Application.ThreeSum.executor": "Run",
-    "Application.kadanesAlgo.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "E:/JavaWorkSpace/DSA/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AnagramCheck.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraySortedOrNot.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CountVowelConsonant.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindMinMax.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindMissingNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinearSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxSubSumBruteForce.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveZeros.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicateBruteForce.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicateUsingSet.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotateArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SecondLargest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThirdLargest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreeSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.kadanesAlgo.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/JavaWorkSpace/DSA/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.CountVowelConsonant">
     <configuration name="CountVowelConsonant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.CountVowelConsonant" />
