@@ -63,6 +63,7 @@
     "Application.ThirdLargest.executor": "Run",
     "Application.ThreeSum.executor": "Run",
     "Application.factorial.executor": "Run",
+    "Application.fibonacci.executor": "Run",
     "Application.kadanesAlgo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -74,26 +75,13 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.factorial">
+  <component name="RunManager" selected="Application.fibonacci">
     <configuration name="CountVowelConsonant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.CountVowelConsonant" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxSubSumBruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.MaxSubSumBruteForce" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,13 +128,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursion.fibonacci" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.fibonacci" />
         <item itemvalue="Application.factorial" />
         <item itemvalue="Application.CountVowelConsonant" />
         <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.ThirdLargest" />
-        <item itemvalue="Application.MaxSubSumBruteForce" />
       </list>
     </recent_temporary>
   </component>
