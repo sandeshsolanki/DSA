@@ -50,6 +50,7 @@
     &quot;Application.CountVowelConsonant.executor&quot;: &quot;Run&quot;,
     &quot;Application.FindMinMax.executor&quot;: &quot;Run&quot;,
     &quot;Application.FindMissingNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstNonRepeating.executor&quot;: &quot;Run&quot;,
     &quot;Application.LinearSearch.executor&quot;: &quot;Run&quot;,
     &quot;Application.MaxSubSumBruteForce.executor&quot;: &quot;Run&quot;,
     &quot;Application.MergeSort.executor&quot;: &quot;Run&quot;,
@@ -75,7 +76,12 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FirstNonRepeating">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JavaWorkSpace\DSA\src\arrays" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MedianOfTwoSortedArray">
     <configuration name="CountVowelConsonant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.CountVowelConsonant" />
       <module name="DSA" />
@@ -102,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.ThreeSum" />
+    <configuration name="MedianOfTwoSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.MedianOfTwoSortedArray" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -143,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MedianOfTwoSortedArray" />
         <item itemvalue="Application.FirstNonRepeating" />
         <item itemvalue="Application.fibonacci" />
         <item itemvalue="Application.factorial" />
         <item itemvalue="Application.CountVowelConsonant" />
-        <item itemvalue="Application.ThreeSum" />
       </list>
     </recent_temporary>
   </component>
