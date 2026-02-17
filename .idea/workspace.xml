@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3604206-b374-4d45-bbf4-f343077324d2" name="Changes" comment="" />
+    <list default="true" id="a3604206-b374-4d45-bbf4-f343077324d2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/Operations.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +48,7 @@
     "Application.AnagramCheck.executor": "Run",
     "Application.ArraySortedOrNot.executor": "Run",
     "Application.BinarySearch.executor": "Run",
+    "Application.BubbleSort.executor": "Run",
     "Application.CountVowelConsonant.executor": "Run",
     "Application.FindMinMax.executor": "Run",
     "Application.FindMissingNumber.executor": "Run",
@@ -82,7 +86,20 @@
       <recent name="E:\JavaWorkSpace\DSA\src\arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.mergeTwoSortedArrays">
+  <component name="RunManager" selected="Application.BubbleSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searching_sorting.BubbleSort" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="searching_sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FirstNonRepeating" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strings.FirstNonRepeating" />
       <module name="DSA" />
@@ -102,19 +119,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.fibonacci" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.mergeTwoSortedArrays" />
         <item itemvalue="Application.findMajorityElement" />
         <item itemvalue="Application.MedianOfTwoSortedArray" />
         <item itemvalue="Application.FirstNonRepeating" />
-        <item itemvalue="Application.fibonacci" />
       </list>
     </recent_temporary>
   </component>

@@ -9,7 +9,7 @@ class Node{
         this.next = null;
     }
 }
-public class Operations {
+    public class Operations {
     public static Node head;
     public static Node tail;
 
