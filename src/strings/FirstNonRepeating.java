@@ -1,29 +1,28 @@
 package strings;
 
+import java.util.Locale;
+
 public class FirstNonRepeating {
-    public static int firstOccurance(String str)
+    public static char firstOccurance(String str)
     {
-        char[] arr = str.toCharArray();
-
-        for (int i=0; i<arr.length; i++)
+        for (int i=0; i<str.length(); i++)
         {
-            boolean isUnique = true;
-            for (int j=0; j<arr.length; j++)
-            {
+            int count = 0;
 
-                if (i!=j && arr[i] == arr[j])
+            for (int j=0; j<str.length(); j++)
+            {
+                if (str.charAt(i) == str.charAt(j))
                 {
-                    isUnique = false;
-                    break;
+                    count++;
                 }
             }
 
-            if (isUnique)
+            if (count == 1)
             {
-                return i;
+                return str.charAt(i);
             }
         }
-        return -1;
+        return '_';
     }
 
     public static void main(String[] args) {
