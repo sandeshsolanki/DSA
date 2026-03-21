@@ -58,6 +58,7 @@
     "Application.MedianOfTwoSortedArray.executor": "Run",
     "Application.MergeSort.executor": "Run",
     "Application.MoveZeros.executor": "Run",
+    "Application.NextGreaterElement.executor": "Run",
     "Application.NonRepeatingUsingHashMap.executor": "Run",
     "Application.PushAtBottom.executor": "Run",
     "Application.RemoveDuplicate.executor": "Run",
@@ -74,6 +75,7 @@
     "Application.SubArray.executor": "Run",
     "Application.ThirdLargest.executor": "Run",
     "Application.ThreeSum.executor": "Run",
+    "Application.ValidParentheses.executor": "Run",
     "Application.factorial.executor": "Run",
     "Application.fibonacci.executor": "Run",
     "Application.findMajorityElement.executor": "Run",
@@ -94,9 +96,9 @@
       <recent name="E:\JavaWorkSpace\DSA\src\arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseStack">
-    <configuration name="PushAtBottom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.PushAtBottom" />
+  <component name="RunManager" selected="Application.ValidParentheses">
+    <configuration name="NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.NextGreaterElement" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -108,25 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.RemoveDuplicate" />
+    <configuration name="PushAtBottom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.PushAtBottom" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveDuplicateUsingSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.RemoveDuplicateUsingSet" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,13 +149,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.ValidParentheses" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidParentheses" />
+        <item itemvalue="Application.NextGreaterElement" />
         <item itemvalue="Application.ReverseStack" />
         <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.PushAtBottom" />
-        <item itemvalue="Application.RemoveDuplicate" />
-        <item itemvalue="Application.RemoveDuplicateUsingSet" />
       </list>
     </recent_temporary>
   </component>
