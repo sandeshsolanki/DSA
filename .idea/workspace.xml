@@ -63,6 +63,7 @@
     "Application.RemoveDuplicate.executor": "Run",
     "Application.RemoveDuplicateBruteForce.executor": "Run",
     "Application.RemoveDuplicateUsingSet.executor": "Run",
+    "Application.ReverseStack.executor": "Run",
     "Application.ReverseString.executor": "Run",
     "Application.ReverseWordInSentense.executor": "Run",
     "Application.RotateArray.executor": "Run",
@@ -93,20 +94,7 @@
       <recent name="E:\JavaWorkSpace\DSA\src\arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseString">
-    <configuration name="NonRepeatingUsingHashMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.NonRepeatingUsingHashMap" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReverseStack">
     <configuration name="PushAtBottom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stack.PushAtBottom" />
       <module name="DSA" />
@@ -146,6 +134,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReverseStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.ReverseStack" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="stack.ReverseString" />
       <module name="DSA" />
@@ -161,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseStack" />
         <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.PushAtBottom" />
         <item itemvalue="Application.RemoveDuplicate" />
         <item itemvalue="Application.RemoveDuplicateUsingSet" />
-        <item itemvalue="Application.NonRepeatingUsingHashMap" />
       </list>
     </recent_temporary>
   </component>
