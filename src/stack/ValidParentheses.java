@@ -13,7 +13,7 @@ public class ValidParentheses {
             if (ch == '(' || ch == '{' || ch == '[') {
                 stack.push(ch);
             }
-            // If closing bracket
+            // If all closing bracket
             else {
                 if (stack.isEmpty())
                 {
