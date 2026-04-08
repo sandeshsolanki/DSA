@@ -46,14 +46,17 @@
   "keyToString": {
     "Application.AnagramCheck.executor": "Run",
     "Application.ArraySortedOrNot.executor": "Run",
+    "Application.BestTimeToBuySellStock.executor": "Run",
     "Application.BinarySearch.executor": "Run",
     "Application.BubbleSort.executor": "Run",
+    "Application.ClimbingStairs.executor": "Run",
     "Application.CountVowelConsonant.executor": "Run",
     "Application.DuplicateParentheses.executor": "Run",
     "Application.FindMinMax.executor": "Run",
     "Application.FindMissingNumber.executor": "Run",
     "Application.FirstNonRepeating.executor": "Run",
     "Application.FrequencyInArray.executor": "Run",
+    "Application.HouseRobber.executor": "Run",
     "Application.IntersectionOfTwoArrays.executor": "Run",
     "Application.LinearSearch.executor": "Run",
     "Application.MaxSubSumBruteForce.executor": "Run",
@@ -101,9 +104,9 @@
       <recent name="E:\JavaWorkSpace\DSA\src\arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoSum">
-    <configuration name="IntersectionOfTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.IntersectionOfTwoArrays" />
+  <component name="RunManager" selected="Application.CoinChange">
+    <configuration name="BestTimeToBuySellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.BestTimeToBuySellStock" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -115,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.RemoveDuplicate" />
+    <configuration name="ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.ClimbingStairs" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.ReverseString" />
+    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.CoinChange" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="strings.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.SubArrays" />
+    <configuration name="HouseRobber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dp.HouseRobber" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CoinChange" />
+        <item itemvalue="Application.HouseRobber" />
+        <item itemvalue="Application.BestTimeToBuySellStock" />
+        <item itemvalue="Application.ClimbingStairs" />
         <item itemvalue="Application.TwoSum" />
-        <item itemvalue="Application.IntersectionOfTwoArrays" />
-        <item itemvalue="Application.SubArrays" />
-        <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.RemoveDuplicate" />
       </list>
     </recent_temporary>
   </component>
