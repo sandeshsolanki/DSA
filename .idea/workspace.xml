@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a3604206-b374-4d45-bbf4-f343077324d2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/MoveZeros.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/MoveZeros.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays/kadanesAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays/kadanesAlgo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stack/NextGreaterElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/stack/NextGreaterElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +75,7 @@
     &quot;Application.SelectionSort.executor&quot;: &quot;Run&quot;,
     &quot;Application.StringPalindrome.executor&quot;: &quot;Run&quot;,
     &quot;Application.SubArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SubArrays.executor&quot;: &quot;Run&quot;,
     &quot;Application.ThirdLargest.executor&quot;: &quot;Run&quot;,
     &quot;Application.ThreeSum.executor&quot;: &quot;Run&quot;,
     &quot;Application.ValidParentheses.executor&quot;: &quot;Run&quot;,
@@ -101,13 +99,13 @@
       <recent name="E:\JavaWorkSpace\DSA\src\arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SubArrays">
-    <configuration name="NextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.NextGreaterElement" />
+  <component name="RunManager" selected="Application.IntersectionOfTwoArrays">
+    <configuration name="IntersectionOfTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.IntersectionOfTwoArrays" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntersectionOfTwoArrays" />
         <item itemvalue="Application.SubArrays" />
         <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.RemoveDuplicate" />
         <item itemvalue="Application.NonRepeatingUsingHashMap" />
-        <item itemvalue="Application.NextGreaterElement" />
       </list>
     </recent_temporary>
   </component>
