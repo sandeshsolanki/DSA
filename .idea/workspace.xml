@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3604206-b374-4d45-bbf4-f343077324d2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a3604206-b374-4d45-bbf4-f343077324d2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,6 +61,7 @@
     "Application.IntersectionOfTwoArrays.executor": "Run",
     "Application.JumpGame.executor": "Run",
     "Application.LinearSearch.executor": "Run",
+    "Application.MaxCircularSubArray.executor": "Run",
     "Application.MaxSubSumBruteForce.executor": "Run",
     "Application.MedianOfTwoSortedArray.executor": "Run",
     "Application.MergeSort.executor": "Run",
@@ -108,7 +107,7 @@
       <recent name="E:\JavaWorkSpace\DSA\src\arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxCircularSubArray">
+  <component name="RunManager" selected="Application.ContainerWithMostWater">
     <configuration name="BrokenCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greedy.BrokenCalculator" />
       <module name="DSA" />
@@ -122,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.CoinChange" />
+    <configuration name="ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ContainerWithMostWater" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContainerWithMostWater" />
         <item itemvalue="Application.MaxCircularSubArray" />
         <item itemvalue="Application.BrokenCalculator" />
         <item itemvalue="Application.GasStation" />
         <item itemvalue="Application.JumpGame" />
-        <item itemvalue="Application.CoinChange" />
       </list>
     </recent_temporary>
   </component>
