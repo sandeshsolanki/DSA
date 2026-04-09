@@ -48,16 +48,20 @@
     "Application.ArraySortedOrNot.executor": "Run",
     "Application.BestTimeToBuySellStock.executor": "Run",
     "Application.BinarySearch.executor": "Run",
+    "Application.BrokenCalculator.executor": "Run",
     "Application.BubbleSort.executor": "Run",
     "Application.ClimbingStairs.executor": "Run",
+    "Application.CoinChange.executor": "Run",
     "Application.CountVowelConsonant.executor": "Run",
     "Application.DuplicateParentheses.executor": "Run",
     "Application.FindMinMax.executor": "Run",
     "Application.FindMissingNumber.executor": "Run",
     "Application.FirstNonRepeating.executor": "Run",
     "Application.FrequencyInArray.executor": "Run",
+    "Application.GasStation.executor": "Run",
     "Application.HouseRobber.executor": "Run",
     "Application.IntersectionOfTwoArrays.executor": "Run",
+    "Application.JumpGame.executor": "Run",
     "Application.LinearSearch.executor": "Run",
     "Application.MaxSubSumBruteForce.executor": "Run",
     "Application.MedianOfTwoSortedArray.executor": "Run",
@@ -104,26 +108,13 @@
       <recent name="E:\JavaWorkSpace\DSA\src\arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CoinChange">
-    <configuration name="BestTimeToBuySellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.BestTimeToBuySellStock" />
+  <component name="RunManager" selected="Application.MaxCircularSubArray">
+    <configuration name="BrokenCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.BrokenCalculator" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClimbingStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.ClimbingStairs" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HouseRobber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dp.HouseRobber" />
+    <configuration name="GasStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.GasStation" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dp.*" />
+          <option name="PATTERN" value="greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,8 +148,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.TwoSum" />
+    <configuration name="JumpGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.JumpGame" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxCircularSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.MaxCircularSubArray" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -172,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxCircularSubArray" />
+        <item itemvalue="Application.BrokenCalculator" />
+        <item itemvalue="Application.GasStation" />
+        <item itemvalue="Application.JumpGame" />
         <item itemvalue="Application.CoinChange" />
-        <item itemvalue="Application.HouseRobber" />
-        <item itemvalue="Application.BestTimeToBuySellStock" />
-        <item itemvalue="Application.ClimbingStairs" />
-        <item itemvalue="Application.TwoSum" />
       </list>
     </recent_temporary>
   </component>
