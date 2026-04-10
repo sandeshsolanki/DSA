@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a3604206-b374-4d45-bbf4-f343077324d2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strings/LongestSubStringWORepeatingChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strings/LongestSubStringWORepeatingChar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +64,7 @@
     &quot;Application.IntersectionOfTwoArrays.executor&quot;: &quot;Run&quot;,
     &quot;Application.JumpGame.executor&quot;: &quot;Run&quot;,
     &quot;Application.LinearSearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSubStringWORepeatingChar.executor&quot;: &quot;Run&quot;,
     &quot;Application.MaxCircularSubArray.executor&quot;: &quot;Run&quot;,
     &quot;Application.MaxSubSumBruteForce.executor&quot;: &quot;Run&quot;,
     &quot;Application.MedianOfTwoSortedArray.executor&quot;: &quot;Run&quot;,
@@ -111,7 +111,7 @@
       <recent name="E:\JavaWorkSpace\DSA\src\arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestSubStringWORepeatingChar">
+  <component name="RunManager" selected="Application.kadanesAlgo">
     <configuration name="BrokenCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="greedy.BrokenCalculator" />
       <module name="DSA" />
@@ -131,19 +131,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GasStation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="greedy.GasStation" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,13 +164,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="kadanesAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.kadanesAlgo" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.kadanesAlgo" />
         <item itemvalue="Application.LongestSubStringWORepeatingChar" />
         <item itemvalue="Application.ContainerWithMostWater" />
         <item itemvalue="Application.MaxCircularSubArray" />
         <item itemvalue="Application.BrokenCalculator" />
-        <item itemvalue="Application.GasStation" />
       </list>
     </recent_temporary>
   </component>
