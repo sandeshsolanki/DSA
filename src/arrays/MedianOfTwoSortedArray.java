@@ -35,7 +35,7 @@ public class MedianOfTwoSortedArray {
 
         int total = m + n;
 
-        if (total % 2 == 0) {
+        if (total % 2 == 0) { // even case
             return (merged[total/2 - 1] + merged[total/2]) / 2.0; // FIXED
         }
         else {
